@@ -1,0 +1,187 @@
+*
+{
+    margin: 0;
+    padding: 0;   
+}
+
+.logo
+{
+    padding-left: 200px;
+    padding-right: 70px;
+    padding-top: 19px; 
+    
+    
+}
+
+.logo img {
+    width:60px;
+    border:3px solid white;
+    border-radius: 50%;
+    
+}
+
+.nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+}
+.list
+{
+    list-style: none;
+    display: flex;
+    align-items: center; 
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 18px;
+    position: relative;
+    left: 80px;
+    
+}
+
+.list a:hover{
+    color: blue;
+   
+}
+
+.right-nav
+{
+    padding-top:3px;
+    padding-left: 200px;
+}
+
+.background
+{
+    background:rgb(0,0,0 ,0.7) url(../image/minimal.avif);
+    background-size: cover;
+    background-blend-mode: darken;
+    
+  
+}
+
+
+.firstsection
+{    height: 88vh;
+    
+}
+
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:  auto;
+    height: 80%;
+}
+
+.first-half
+{
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.second-half
+{
+   width: 30%;
+    max-width: 10%;
+}
+
+.second-half img
+{
+    width: 300px;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    
+ 
+}
+
+.big-text
+{
+  font-size: 40px;
+  padding-right: 70px;
+  position: relative;
+  top: 40px;
+  padding-bottom: 30px;
+}
+
+
+.small-text
+{
+   padding-right: 30px;
+   font-size: 17px;
+   position: relative;
+  top: 40px;
+}
+
+.main-btn{
+    position: relative;
+  top: 40px;
+}
+.btn1
+{
+  position: relative;
+  color: white;
+  background-color:transparent;
+  font-size: 17px;
+  left: 130px;
+  top: 20px;
+  padding: 10px;
+  height: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.btn2
+{
+    position: relative;
+    color: black;
+    background-color:yellow;
+    font-size: 17px;
+    left: 130px;
+    top: 20px;
+    padding: 6px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, seri;
+    border: 5px solid white;
+}
+
+
+.btn1:hover{
+    color: darkgrey;
+    box-shadow: 0 0 50px;
+}
+
+.btn2:hover
+  {
+    color:gray;
+    box-shadow: 0 0 30px;
+   
+  }
+
+
+.gallery-images
+{
+    display: flex;
+}
+
+.image{
+   
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+.another-section
+{
+    display: flex;
+}
